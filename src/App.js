@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
-import RowSelection from "./components/RowSelection";
+
+import './App.css';
+import ColumnOrder from './components/ColumnOrder';
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <SortedTable /> */}
       {/* <FilteringTable /> */}
       {/* <ColumnFiltering /> */}
-      <RowSelection />
+      {/* <RowSelection /> */}
+      <ColumnOrder />
     </div>
   );
 }
