@@ -1,6 +1,5 @@
-
 import './App.css';
-import ColumnOrder from './components/ColumnOrder';
+import ColumnHiding from './components/ColumnHiding';
 
 function App() {
   return (
@@ -9,7 +8,8 @@ function App() {
       {/* <FilteringTable /> */}
       {/* <ColumnFiltering /> */}
       {/* <RowSelection /> */}
-      <ColumnOrder />
+      {/* <ColumnOrder /> */}
+      <ColumnHiding />
     </div>
   );
 }
